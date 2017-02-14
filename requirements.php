@@ -9,7 +9,6 @@
  * If you are using Linux you can create a hard link instead, using the following command:
  * ln requirements.php ../requirements.php
  */
-// new commit
 // you may need to adjust this path to the correct Yii framework path
 $frameworkPath = dirname(__FILE__) . '/vendor/yiisoft/yii2';
 
