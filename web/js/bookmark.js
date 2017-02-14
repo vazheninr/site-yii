@@ -1,0 +1,1 @@
+function bookmark(a,c){if(window.sidebar){window.sidebar.addPanel(c,a,"")}else{if(window.opera&&window.print){var b=document.createElement("a");b.setAttribute("href",a);b.setAttribute("title",c);b.setAttribute("rel","sidebar");b.click()}else{if(document.all){window.external.AddFavorite(a,c)}}}};

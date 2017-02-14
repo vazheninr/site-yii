@@ -1,0 +1,1 @@
+$.tabs=function(a,b){$(a).each(function(d,c){$($(c).attr("tab")).css("display","none");$(c).click(function(){$(a).each(function(f,e){$(e).removeClass("selected");$($(e).attr("tab")).css("display","none")});$(this).addClass("selected");$($(this).attr("tab")).css("display","block")})});if(!b){b=$(a+":first").attr("tab")}$(a+"[tab='"+b+"']").trigger("click")};

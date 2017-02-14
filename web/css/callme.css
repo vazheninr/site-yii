@@ -1,0 +1,169 @@
+#callme {
+
+}
+
+body.owerlayed:after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 99;
+}
+
+#callmeform .txt {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #FFEAAB;
+    color: #777;
+    font-size: 14px;
+    padding: 4px 8px;
+    margin-bottom: 10px;
+}
+#callmeform {
+    display: none;
+    text-shadow: 0 1px #fff;
+    border: 6px solid #FFFFFF;
+    box-shadow: 0 3px 60px rgba(0, 0, 0, 0.55);
+    padding: 15px 25px;
+    box-sizing: border-box;
+    position: fixed;
+    border-radius: 2px;
+    left: 50%;
+    top: 160px;
+    width: 380px;
+    margin-left: -200px;
+    z-index: 5;
+    background: #FCF4ED;
+    z-index: 99999;
+}
+#callmeform table {
+    border-collapse: collapse;
+    width: 100%;
+}
+#callmeform table td {
+    font-size: 12px;
+    padding: 2px 1px;
+}
+#callmeform .btn {
+    font-family: Verdana,sans-serif;
+    background-color: #fcbb67;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fcbb67), color-stop(100%, #f7aa47));
+    background-image: -webkit-linear-gradient(top, #fcbb67, #f7aa47);
+    background-image: -moz-linear-gradient(top, #fcbb67, #f7aa47);
+    background-image: -ms-linear-gradient(top, #fcbb67, #f7aa47);
+    background-image: -o-linear-gradient(top, #fcbb67, #f7aa47);
+    background-image: linear-gradient(top, #fcbb67, #f7aa47);
+    border: 1px solid #f7aa47;
+    border-bottom: 1px solid #ec9c35;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 1px 0 0 #faca8b;
+    -moz-box-shadow: inset 0 1px 0 0 #faca8b;
+    box-shadow: inset 0 1px 0 0 #faca8b;
+    color: #fff;
+    font-weight: bold;
+    line-height: 1;
+    margin-top: 10px;
+    padding: 7px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 -1px 0 #e2942f;
+    width: 100%;
+}
+#callmeform .btn:hover {
+    background-color: #f7ad4d;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f7ad4d), color-stop(100%, #f49f33));
+    background-image: -webkit-linear-gradient(top, #f7ad4d, #f49f33);
+    background-image: -moz-linear-gradient(top, #f7ad4d, #f49f33);
+    background-image: -ms-linear-gradient(top, #f7ad4d, #f49f33);
+    background-image: -o-linear-gradient(top, #f7ad4d, #f49f33);
+    background-image: linear-gradient(top, #f7ad4d, #f49f33);
+    -webkit-box-shadow: inset 0 1px 0 0 #fbc073;
+    -moz-box-shadow: inset 0 1px 0 0 #fbc073;
+    box-shadow: inset 0 1px 0 0 #fbc073;
+    cursor: pointer;
+}
+#callmeform h6 {
+	color: #A74F00;
+    font-size: 15px;
+    padding: 5px 0 15px 0;
+    margin: 0;
+}
+.hide-on {
+    display: none;
+}
+.hide-off {
+    display: block;
+}
+.callmebody {
+    font-family: Arial;
+    font-size: 80%;
+    background: #fff;
+    padding: 5px 10px;
+}
+.callmebody .inf {
+    padding: 0 5px;
+    margin: 0 0 10px 0;
+    font-weight: bold;
+    clear: both;
+}
+.callmeform_hover {
+    background-position: 22px 0 !important;
+}
+#callme_result {
+    background: #fff url(loading.gif) 10px center no-repeat;
+    display: block;
+    clear: both;
+    margin: 10px 1px 1px 1px;
+}
+#callme_result div {
+    padding: 7px 7px;
+    margin: 4px 0 0 0;
+}
+#callme_result .sending {
+    padding: 4px 0 4px 35px;
+    display: block;
+    clear: both;
+}
+#callme_result .c_success {
+    background: #FCF4ED;
+}
+#callme_result .c_error {
+    background: #ffadad;
+    color: #333;
+    text-shadow: none;
+}
+#cme_cls {
+    height: 16px;
+    width: 16px;
+    float: right;
+    display: inline;
+    background: url('calme-close.png') no-repeat 50% 50%;
+    margin: 12px 14px 0 0;
+    box-shadow: 0 1px 0 #fff;
+    cursor: pointer;
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    opacity: .5
+}
+
+#cme_cls:hover {opacity: 1}
+#cm_crds a {
+    font-size: 10px;
+    color: #888;
+}
+#cm_crds a:hover {
+    text-decoration: none;
+}
+#cm_crds {
+    display: none;
+    float: right;
+    padding: 11px 5px 0 0;
+    font-size: 10px;
+    color: #888;
+}

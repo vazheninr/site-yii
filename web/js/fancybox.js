@@ -1,0 +1,1 @@
+$(document).ready(function(){$("a.thickbox").attr("rel","group");$("a.thickbox img").parent().fancybox({overlayShow:true,speedIn:600,speedOut:500,transitionIn:"elastic",transitionOut:"fade",titleShow:false,easingIn:"easeOutBack",easingOut:"easeInBack"})});
